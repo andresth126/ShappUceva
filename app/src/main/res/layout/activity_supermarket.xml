@@ -53,19 +53,22 @@
         tools:layout_editor_absoluteX="98dp"
         tools:layout_editor_absoluteY="313dp" />
 
-    <Button
-        android:id="@+id/button8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Volver"
-        tools:layout_editor_absoluteX="98dp"
-        tools:layout_editor_absoluteY="509dp" />
+    <ImageButton
+        android:id="@+id/imageButton15"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:background="#FFFFFF"
+        app:srcCompat="@drawable/back"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="530dp" />
 
-    <Button
-        android:id="@+id/button9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hecho"
-        tools:layout_editor_absoluteX="225dp"
-        tools:layout_editor_absoluteY="509dp" />
+    <ImageButton
+        android:id="@+id/imageButton16"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:background="#FFFFFF"
+        app:srcCompat="@drawable/ok"
+        tools:layout_editor_absoluteX="207dp"
+        tools:layout_editor_absoluteY="530dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

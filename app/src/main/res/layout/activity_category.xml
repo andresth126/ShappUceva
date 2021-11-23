@@ -5,6 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <ImageButton
+        android:id="@+id/imageButton19"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:background="#FFFFFF"
+        app:srcCompat="@drawable/back"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="545dp" />
+
     <ImageView
         android:id="@+id/imageView20"
         android:layout_width="479dp"
@@ -12,14 +21,6 @@
         app:srcCompat="@drawable/footer"
         tools:layout_editor_absoluteX="-6dp"
         tools:layout_editor_absoluteY="619dp" />
-
-    <Button
-        android:id="@+id/button13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Volver"
-        tools:layout_editor_absoluteX="160dp"
-        tools:layout_editor_absoluteY="534dp" />
 
     <ImageView
         android:id="@+id/imageView18"

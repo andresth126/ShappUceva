@@ -13,14 +13,6 @@
         tools:layout_editor_absoluteX="-6dp"
         tools:layout_editor_absoluteY="619dp" />
 
-    <Button
-        android:id="@+id/button12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Inicio"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="537dp" />
-
     <TextView
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
@@ -94,4 +86,13 @@
         android:text="Te entrega:"
         tools:layout_editor_absoluteX="103dp"
         tools:layout_editor_absoluteY="403dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton20"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:background="#FFFFFF"
+        app:srcCompat="@drawable/home"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="538dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

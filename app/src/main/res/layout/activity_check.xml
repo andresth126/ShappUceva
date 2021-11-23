@@ -5,6 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <ImageButton
+        android:id="@+id/imageButton17"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:background="#FFFFFF"
+        app:srcCompat="@drawable/ok"
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="555dp" />
+
     <ImageView
         android:id="@+id/imageView12"
         android:layout_width="479dp"
@@ -12,22 +21,6 @@
         app:srcCompat="@drawable/footer"
         tools:layout_editor_absoluteX="-6dp"
         tools:layout_editor_absoluteY="619dp" />
-
-    <Button
-        android:id="@+id/button10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Modificar"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="555dp" />
-
-    <Button
-        android:id="@+id/button11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hecho"
-        tools:layout_editor_absoluteX="225dp"
-        tools:layout_editor_absoluteY="555dp" />
 
     <ImageView
         android:id="@+id/imageView10"
@@ -126,4 +119,13 @@
         app:srcCompat="@drawable/pickup"
         tools:layout_editor_absoluteX="276dp"
         tools:layout_editor_absoluteY="433dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton18"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:background="#FFFFFF"
+        app:srcCompat="@drawable/edit"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="555dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

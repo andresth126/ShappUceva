@@ -13,14 +13,6 @@
         tools:layout_editor_absoluteX="-6dp"
         tools:layout_editor_absoluteY="619dp" />
 
-    <Button
-        android:id="@+id/button7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Cerrar sesión"
-        tools:layout_editor_absoluteX="266dp"
-        tools:layout_editor_absoluteY="502dp" />
-
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="wrap_content"
@@ -39,11 +31,24 @@
         app:srcCompat="@drawable/location"
         tools:layout_editor_absoluteY="203dp" />
 
-    <Button
-        android:id="@+id/button6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Revisar catálogo"
-        tools:layout_editor_absoluteX="-12dp"
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="217dp"
+        android:layout_height="49dp"
+        android:background="#FFFFFF"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/checkcat"
+        tools:layout_editor_absoluteX="-25dp"
         tools:layout_editor_absoluteY="415dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton14"
+        android:layout_width="219dp"
+        android:layout_height="42dp"
+        android:background="#FFFFFF"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/leave"
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="539dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
