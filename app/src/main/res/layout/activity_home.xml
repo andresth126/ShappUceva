@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="479dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/footer"
+        tools:layout_editor_absoluteX="-6dp"
+        tools:layout_editor_absoluteY="619dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cerrar sesión"
+        tools:layout_editor_absoluteX="266dp"
+        tools:layout_editor_absoluteY="502dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/welcome"
+        tools:layout_editor_absoluteX="-43dp"
+        tools:layout_editor_absoluteY="-67dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/location"
+        tools:layout_editor_absoluteY="203dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Revisar catálogo"
+        tools:layout_editor_absoluteX="-12dp"
+        tools:layout_editor_absoluteY="415dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
